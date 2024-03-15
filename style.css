@@ -1,10 +1,21 @@
-.container {
+.container-top {
     display: flex;
     background-color: #b3d89c;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-bottom {
+    display: flex;
+    background-color: #b3d89c;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
 }
 
 .column {
@@ -33,6 +44,15 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.colorDiv {
+    width: 30%;
+    background-color: #d0efb1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 body {
     background-color: #d0efb1;
     font-family: "Helvetica Neue"
@@ -44,4 +64,28 @@ p {
 
 img {
     width: 50px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #d0efb1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 35px;
+    width: 25%;
+}
+
+input {
+    width: 70%;
+    border-radius: 10px;
+    background-color: #d0efb1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid black;
 }

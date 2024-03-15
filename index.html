@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container-top">
         <div class="column">
             <p>Hello! My name is <b>Manuel</b> and I study <b>Civil Engineering in Computer Science</b> 💻 at Universidad de Los Andes . I majored in Innovation and a concentration in Electrical Engineering ⚡, I am in my fourth year, that is, I entered the year <b>2021</b>. I have knowledge in various programming languages such as Python, C/C++, SQL, JavaScript, HTML/CSS, as well as different software such as SAP, Salesforce, Postgres, Office. I am interested in technological innovation, data analysis and artificial intelligence.</p>
         </div>
@@ -20,8 +20,57 @@
             <p></p>
         </div>
     </div>
-    <div class="container">
-        
+    <div class="container-bottom">
+        <table>
+            <caption>Habilidades en lenguajes</caption>
+            <thead>
+                <tr>
+                    <th>Lenguaje</th>
+                    <th>Nivel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Python</td>
+                    <td>Avanzado</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td>C++</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                </tr>
+                <tr>
+                    <td>HTML/CSS</td>
+                    <td>Básico</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Básico</td>
+                </tr>
+                <tr>
+                    <td>Ingles</td>
+                    <td>Avanzado</td>
+                </tr>
+                <tr>
+                    <td>Español</td>
+                    <td>Nativo</td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="width: 375px; padding: 70px;">
+            <p>Ingrese un color en valor hexadecimal (debe incluir máximo 6 dígito del 0 a F)</p>
+            <input id="color-changer-input" type="text" placeholder="Ej: #FFFFFF">
+            <button id="boton" onclick="changeColor()">Change</button>
+        </div>
+        <div class="colorDiv"></div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
